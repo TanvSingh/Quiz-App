@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+    .quiz-container, .start-screen, .result-screen {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  

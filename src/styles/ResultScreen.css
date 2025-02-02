@@ -1,0 +1,20 @@
+.result-screen {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .result-screen h2 {
+    font-size: 28px;
+  }
+  
+  .result-screen p {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .result-screen button {
+    margin-top: 15px;
+  }
+  

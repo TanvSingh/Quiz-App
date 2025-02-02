@@ -1,0 +1,46 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff4757;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .app-logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 10px; /* Optional for rounded corners */
+  }
+  

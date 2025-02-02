@@ -1,0 +1,42 @@
+/* Set a background image to cover the entire screen */
+.start-screen {
+    display: flex;
+    flex-direction: column; /* Ensure the content stacks vertically */
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Full screen height */
+    background-image: url('photo quiz.jpg'); /* Correct image path */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Set text color to white */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 20px; /* Rounds the corners of the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Adds shadow to the container */
+    
+}
+
+/* Style for the heading */
+.start-screen h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Style for the button */
+.start-screen button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: rgba(0, 123, 255, 0.7); /* Transparent blue */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Adds space between the heading and the button */
+}
+
+/* Button hover effect */
+.start-screen button:hover {
+    background-color: rgba(0, 123, 255, 1);
+}

@@ -59,7 +59,7 @@ QuizContext.jsx: Provides a global state for quiz data, score, and current quest
 
 <h1>Backend (server/)</h1>
 <br>
-server.js: Main server file that serves the quiz data via Express.
+Node server.js: Main server file that serves the quiz data via Express.
 <br>
 quizService.js: Service for fetching quiz data from the external API.
    
